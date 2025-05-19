@@ -1,10 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Feed en blanco</title>
-    <link>https://example.com/</link>
-    <description>Placeholder sin ítems</description>
-    <lastBuildDate>Mon, 19 May 2025 12:00:00 GMT</lastBuildDate>
-    <!-- Sin <item> -->
-  </channel>
-</rss>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prueba XML</title>
+</head>
+<body>
+
+  <div id="info">Aquí aparecerá información adicional</div>
+
+  <script>
+    const xmlString = `
+    <rss version="2.0">
+      <channel>
+        <title>Ejemplo de RSS</title>
+        <description>Descripción de prueba</description>
+        <link>https://ejemplo.com</link>
+      </channel>
+    </rss>
+    `;
+
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(xmlString, "application/xml");
+    const title = xml.querySelector("title")?.textContent || ".";
+    document.getElementById("info").textContent = title;
+  </script>
+
+</body>
+</html>
