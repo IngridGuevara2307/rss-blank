@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<div id="info">Aquí aparecerá información adicional</div>
+
+<script>
+const xmlString = `
+<rss>
   <channel>
-    <title>Feed en blanco</title>
-    <link>https://example.com/</link>
-    <description>Placeholder sin ítems</description>
-    <lastBuildDate>Mon, 19 May 2025 12:00:00 GMT</lastBuildDate>
-
-    <item>
-      <title> </title>
-      <description> </description>
-      <link>https://example.com/</link>
-      <pubDate>Mon, 19 May 2025 12:00:00 GMT</pubDate>
-    </item>
-
+    <title>Mi canal de pruebas</title>
+    <description>Esta es una descripción de ejemplo.</description>
   </channel>
 </rss>
+`;
+
+const parser = new DOMParser();
+const xml = parser.parseFromString(xmlString, "application/xml");
+
+const title = xml.querySelector("title").textContent;
+document.getElementById("info").textContent = title;
+</script>
