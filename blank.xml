@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Feed en blanco</title>
+    <link>https://example.com/</link>
+    <description>Placeholder sin ítems</description>
+    <lastBuildDate>Mon, 19 May 2025 12:00:00 GMT</lastBuildDate>
+    <!-- Sin <item> -->
+  </channel>
+</rss>
