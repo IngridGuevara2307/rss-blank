@@ -21,7 +21,7 @@
 
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlString, "application/xml");
-    const title = xml.querySelector("title")?.textContent || ".";
+    const title = xml.querySelector("channel > title")?.textContent || ".";
     document.getElementById("info").textContent = title;
   </script>
 
