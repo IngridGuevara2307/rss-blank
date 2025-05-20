@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi prueba de GitHub Pages</title>
+  <meta charset="UTF-8" />
+  <title>Ejemplo XML</title>
 </head>
 <body>
-  <h1>¡Hola! Esta es mi página en GitHub Pages</h1>
-  <p>Si estás viendo esto, significa que funciona.</p>
+
+  <div id="info">.</div> <!-- Ya no dice "Aquí aparecerá..." -->
+
+  <script>
+    const xmlString = `
+    <rss version="2.0">
+      <channel>
+        <title>Ejemplo de RSS</title>
+        <description>Descripción de prueba</description>
+        <link>https://ejemplo.com</link>
+      </channel>
+    </rss>
+    `;
+
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(xmlString, "application/xml");
+    const title = xml.querySelector("channel > title")?.textContent || ".";
+    document.getElementById("info").textContent = title;
+  </script>
+
 </body>
 </html>
