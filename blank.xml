@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>RSS Vacío</title>
-    <link>https://tusitio.com/</link>
-    <description>Este RSS está intencionalmente vacío</description>
+    <title>.</title>
+    <link>https://ingridguevara2307.github.io/rss-blank/</link>
+    <description>.</description>
     <language>es</language>
+    <item>
+      <title>.</title>
+      <link>https://ingridguevara2307.github.io/rss-blank/.</link>
+      <description>.</description>
+      <pubDate>Mon, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://ingridguevara2307.github.io/rss-blank/.1</guid>
+    </item>
   </channel>
 </rss>
