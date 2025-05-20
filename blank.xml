@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Noticias temporales</title>
-    <link>https://tusitio.com/</link>
-    <description>Canal de mantenimiento</description>
+    <title>BCP</title>
+    <link>https://bcp.com.pe/</link>
+    <description>Información del BCP</description>
     <language>es</language>
     <item>
-      <title>Sin contenido disponible</title>
-      <link>https://tusitio.com/placeholder</link>
-      <description>Este canal está temporalmente sin contenido.</description>
+      <title>BCP</title>
+      <link>https://bcp.com.pe/</link>
+      <description>BCP</description>
       <pubDate>Mon, 20 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://tusitio.com/placeholder</guid>
+      <guid>https://bcp.com.pe/informacion</guid>
     </item>
   </channel>
 </rss>
