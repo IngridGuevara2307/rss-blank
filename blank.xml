@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <title>Ejemplo XML</title>
-</head>
-<body>
-
-  <div id="info">Aquí aparecerá información adicional</div>
-
-  <script>
-    const xmlString = `
-    <rss version="2.0">
-      <channel>
-        <title>Ejemplo de RSS</title>
-        <description>Descripción de prueba</description>
-        <link>https://ejemplo.com</link>
-      </channel>
-    </rss>
-    `;
-
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlString, "application/xml");
-    const title = xml.querySelector("channel > title")?.textContent || ".";
-    document.getElementById("info").textContent = title;
-  </script>
-
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Canal vacío</title>
+    <link>https://ejemplo.com</link>
+    <description>Este canal no tiene contenido</description>
+  </channel>
+</rss>
