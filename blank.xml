@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Canal BCP</title>
+    <title>Noticias BCP</title>
     <link>https://bcp.com.pe/</link>
-    <description>Información del BCP</description>
+    <description>Noticias del Banco BCP</description>
     <language>es</language>
     <atom:link href="https://ingridguevara2307.github.io/rss-blank/blank.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BCP noticia 1</title>
-      <link>https://bcp.com.pe/noticia1</link>
-      <description>Descripción de noticia 1</description>
+      <title>Noticia 1: BCP anuncia nueva promoción</title>
+      <link>https://bcp.com.pe/promocion</link>
+      <description>BCP lanza una promoción especial para sus clientes.</description>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://bcp.com.pe/noticia1</guid>
+      <guid>https://bcp.com.pe/promocion</guid>
     </item>
     <item>
-      <title>BCP noticia 2</title>
-      <link>https://bcp.com.pe/noticia2</link>
-      <description>Descripción de noticia 2</description>
+      <title>Noticia 2: BCP inaugura nueva sucursal</title>
+      <link>https://bcp.com.pe/sucursal</link>
+      <description>Se inaugura una nueva sucursal en Lima.</description>
       <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://bcp.com.pe/noticia2</guid>
+      <guid>https://bcp.com.pe/sucursal</guid>
     </item>
   </channel>
 </rss>
