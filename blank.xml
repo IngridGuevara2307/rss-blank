@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>.</title>
-    <link>https://ingridguevara2307.github.io/rss-blank/</link>
-    <description>.</description>
+    <title>Canal de prueba</title>
+    <link>https://tusitio.com/</link>
+    <description>Este canal muestra un punto para evitar texto por defecto.</description>
     <language>es</language>
     <item>
       <title>.</title>
-      <link>https://ingridguevara2307.github.io/rss-blank/.</link>
+      <link>https://tusitio.com/vacio</link>
       <description>.</description>
       <pubDate>Mon, 20 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ingridguevara2307.github.io/rss-blank/.1</guid>
+      <guid>https://tusitio.com/vacio</guid>
     </item>
   </channel>
 </rss>
